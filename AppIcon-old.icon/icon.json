@@ -1,0 +1,104 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.74510,1.00000,0.76471,0.48166",
+      "display-p3:0.98431,0.54510,1.00000,0.48166"
+    ]
+  },
+  "groups" : [
+    {
+      "hidden" : false,
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "glass" : true,
+          "image-name" : "lock-copper.png",
+          "name" : "lock-copper",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 0.75,
+            "translation-in-points" : [
+              283.1875,
+              291.1796875
+            ]
+          }
+        }
+      ],
+      "position" : {
+        "scale" : 1,
+        "translation-in-points" : [
+          -17.546875,
+          -128.5234375
+        ]
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    },
+    {
+      "blur-material" : null,
+      "hidden" : false,
+      "layers" : [
+        {
+          "blend-mode" : "darken",
+          "glass" : true,
+          "hidden" : true,
+          "image-name" : "1a1addf2-da08-4508-b67a-e4bb96c5cfc6.png",
+          "name" : "1a1addf2-da08-4508-b67a-e4bb96c5cfc6",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              216.3352614812356,
+              87.13330208534474
+            ]
+          }
+        },
+        {
+          "glass" : true,
+          "hidden" : true,
+          "image-name" : "1ea22a56-2278-4009-986c-de621470aae9.png",
+          "name" : "1ea22a56-2278-4009-986c-de621470aae9",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0.7177886633105047,
+              -28.57110962003335
+            ]
+          }
+        },
+        {
+          "image-name" : "card-colored.png",
+          "name" : "card-colored",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -1.5703125,
+              -24.328125
+            ]
+          }
+        }
+      ],
+      "lighting" : "individual",
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 1
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

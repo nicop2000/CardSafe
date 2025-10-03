@@ -1,0 +1,487 @@
+{
+  "sourceLanguage" : "de",
+  "strings" : {
+    "" : {
+      "shouldTranslate" : false
+    },
+    "**** %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**** %@"
+          }
+        }
+      }
+    },
+    "🔒 Gesperrt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔒 Locked"
+          }
+        }
+      }
+    },
+    "1234 5678 9012 3456" : {
+      "shouldTranslate" : false
+    },
+    "Abbrechen" : {
+
+    },
+    "Ablaufdatum: %@/%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expires: %@/%lld"
+          }
+        }
+      }
+    },
+    "Bank" : {
+      "shouldTranslate" : false
+    },
+    "Card Details" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Card Details"
+          }
+        }
+      }
+    },
+    "CardSafe" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CardSafe"
+          }
+        }
+      }
+    },
+    "CardSafe Setup" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CardSafe Setup"
+          }
+        }
+      }
+    },
+    "Confirm password" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm password"
+          }
+        }
+      }
+    },
+    "CVV" : {
+      "shouldTranslate" : false
+    },
+    "Deine Karten werden sicher gespeichert und sicher auf deine anderen Geräte über iCloud synchronisiert." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your cards are saved securely and are synchronized securely to your other iCloud devices."
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "Enter password" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter password"
+          }
+        }
+      }
+    },
+    "Gebühr für Bargeldabhebung in eigener Währung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cash Withdrawal (Own Currency)"
+          }
+        }
+      }
+    },
+    "Gebühr für Bargeldabhebung in eigener Währung: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cash Withdrawal (Own Currency): %@"
+          }
+        }
+      }
+    },
+    "Gebühr für Bargeldabhebung in Fremdwährung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cash Withdrawal (Foreign Currency)"
+          }
+        }
+      }
+    },
+    "Gebühr für Bargeldabhebung in Fremdwährung: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cash Withdrawal (Foreign Currency): %@"
+          }
+        }
+      }
+    },
+    "Gebühr für Zahlungen in Fremdwährung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foreign Currency Payment Fee"
+          }
+        }
+      }
+    },
+    "Gebühr für Zahlungen in Fremdwährung: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foreign Currency Payment Fee: %@"
+          }
+        }
+      }
+    },
+    "Gültig bis: %@/" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exp: %@/"
+          }
+        }
+      }
+    },
+    "Hint: You can change it later in the settings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hint: You can change it later in the settings"
+          }
+        }
+      }
+    },
+    "Jahresgebühr" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annual Fee"
+          }
+        }
+      }
+    },
+    "Jahresgebühr: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annual Fee: %@"
+          }
+        }
+      }
+    },
+    "Kartendetails" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Card Details"
+          }
+        }
+      }
+    },
+    "Karteninhaber:in" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name of Cardholder"
+          }
+        }
+      }
+    },
+    "Kartentyp" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartentyp"
+          }
+        }
+      }
+    },
+    "Konditionen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conditions"
+          }
+        }
+      }
+    },
+    "Löschen" : {
+
+    },
+    "Make sure to remember your password, as it cannot be recovered if forgotten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Make sure to remember your password, as it cannot be recovered if forgotten"
+          }
+        }
+      }
+    },
+    "MM/YYYY" : {
+      "shouldTranslate" : false
+    },
+    "Name der Karte" : {
+
+    },
+    "Name des Zahlungsanbieters" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Branding Name"
+          }
+        }
+      }
+    },
+    "Neue Karten hinzufügen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add New Card"
+          }
+        }
+      }
+    },
+    "No cards available. Tap the %@ button to add a new card." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No cards available. Tap the %@ button to add a new card."
+          }
+        }
+      }
+    },
+    "Notiz: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note: %@"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Passwords don't match" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passwords don't match"
+          }
+        }
+      }
+    },
+    "PIN" : {
+      "shouldTranslate" : false
+    },
+    "PIN: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN: %@"
+          }
+        }
+      }
+    },
+    "Rückzahlungsinformationen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payoff"
+          }
+        }
+      }
+    },
+    "Rückzahlungsinformationen: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payoff: %@"
+          }
+        }
+      }
+    },
+    "Save Password" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Password"
+          }
+        }
+      }
+    },
+    "Set a password to protect your cards. " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set a password to protect your cards. "
+          }
+        }
+      }
+    },
+    "Sind Sie sicher, dass Sie diese Karte löschen möchten?" : {
+
+    },
+    "This password will be used unlock the app" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This password will be used unlock the app"
+          }
+        }
+      }
+    },
+    "Try Again" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try Again"
+          }
+        }
+      }
+    },
+    "Unlock" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock"
+          }
+        }
+      }
+    },
+    "Use Face ID" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use Face ID"
+          }
+        }
+      }
+    },
+    "Wrong password" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wrong password"
+          }
+        }
+      }
+    },
+    "You can also use Face ID or Touch ID for convenience" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can also use Face ID or Touch ID for convenience"
+          }
+        }
+      }
+    },
+    "Zahlungsanbieter" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Branding Name"
+          }
+        }
+      }
+    },
+    "Zahlungsinformationen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Payment Information"
+          }
+        }
+      }
+    },
+    "Zusatzinformationen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Additionals"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4A5A90CB-6011-4942-A1AA-BAFEDADE2911"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63E67B1C-828F-4707-BBCF-6EFEE867AB0C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardSafe/Resolver/ResolverRegister.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "registerAllServices()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C1256B0-CF32-449A-8003-30A1B5D4F932"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardSafe/IO/KeyObfuscationError.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "ivArgument"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6C1256B0-CF32-449A-8003-30A1B5D4F932 - b1d1b0a76d84cdd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CardSafe.ObfuscatedKeyProvider.reconstructedKeyData() throws -&gt; CryptoKit.SymmetricKey"
+                  moduleName = "CardSafe.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicopetersen/Developer/Development/App/CardSafe/CardSafe/IO/KeyObfuscationError.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79">
+               </Location>
+               <Location
+                  uuid = "6C1256B0-CF32-449A-8003-30A1B5D4F932 - 63b275b68176aa53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CardSafe.ObfuscatedKeyProvider.ivArgument.getter : Swift.String"
+                  moduleName = "CardSafe.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicopetersen/Developer/Development/App/CardSafe/CardSafe/IO/KeyObfuscationError.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FC15AD4-ABFB-4F98-B7EC-B8CDF60453C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardSafe/IO/KeyObfuscationError.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "ivArgument"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "7FC15AD4-ABFB-4F98-B7EC-B8CDF60453C0 - b1d1b0a76d84cdd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CardSafe.ObfuscatedKeyProvider.reconstructedKeyData() throws -&gt; CryptoKit.SymmetricKey"
+                  moduleName = "CardSafe.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicopetersen/Developer/Development/App/CardSafe/CardSafe/IO/KeyObfuscationError.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79">
+               </Location>
+               <Location
+                  uuid = "7FC15AD4-ABFB-4F98-B7EC-B8CDF60453C0 - 63b275b681769591"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CardSafe.ObfuscatedKeyProvider.ivArgument.getter : Swift.String"
+                  moduleName = "CardSafe.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicopetersen/Developer/Development/App/CardSafe/CardSafe/IO/KeyObfuscationError.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
