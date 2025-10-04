@@ -1,4 +1,5 @@
 import KeychainManager
+import CryptoKit
 import Foundation
 
 class KeychainAccessor {
@@ -19,6 +20,10 @@ class KeychainAccessor {
                 let decryptedData = try cryptoService.decryptBase64ToData(cardData)
                 let card: Card = try JSONDecoder().decode(Card.self, from: decryptedData)
                 cards.append(card)
+            } catch let cryptoError as CryptoKitError {
+                print("CryptoKit-Error: Retrieving card for key \(key): \(cryptoError)")
+                print("Possibly wrong password or corrupted data. Will delete the corrupted entry.")
+                delete(cardId: key)
             } catch {
                 print("Error retrieving card for key \(key): \(error)")
             }
