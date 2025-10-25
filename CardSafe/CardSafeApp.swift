@@ -1,7 +1,6 @@
 import SwiftUI
 import CryptoKit
 import TipKit
-import Resolver
 
 @main
 struct CardSafeApp: App {
