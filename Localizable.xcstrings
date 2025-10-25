@@ -44,6 +44,7 @@
       "shouldTranslate" : false
     },
     "Card Details" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
