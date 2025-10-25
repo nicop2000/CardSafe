@@ -1,0 +1,15 @@
+{
+  "originHash" : "b378c09ad4b0472626b62ea0e1095441698d9d33d5342150a2c3c15c2fb927a0",
+  "pins" : [
+    {
+      "identity" : "keychainmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicop2000/KeychainManager.git",
+      "state" : {
+        "revision" : "0f945bdacb8e26ee57f44f8616f8ca95e3451ee8",
+        "version" : "3.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

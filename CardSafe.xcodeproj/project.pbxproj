@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1990B92EAD7F1700514450 /* KeychainManager in Frameworks */ = {isa = PBXBuildFile; productRef = DA1990B82EAD7F1700514450 /* KeychainManager */; };
 		DA2234342E09811A00C37435 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = DA2234332E09811A00C37435 /* AppIcon.icon */; };
 		DA3A195F2DF77AB100C5590F /* KeychainManager in Frameworks */ = {isa = PBXBuildFile; productRef = DA3A195E2DF77AB100C5590F /* KeychainManager */; };
 		DA9015A02E85D7D200504662 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DA90159F2E85D7D200504662 /* Localizable.xcstrings */; };
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1990B92EAD7F1700514450 /* KeychainManager in Frameworks */,
 				DA3A195F2DF77AB100C5590F /* KeychainManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +126,7 @@
 			name = CardSafe;
 			packageProductDependencies = (
 				DA3A195E2DF77AB100C5590F /* KeychainManager */,
+				DA1990B82EAD7F1700514450 /* KeychainManager */,
 			);
 			productName = CardSafe;
 			productReference = DA3A18BC2DF76FF200C5590F /* CardSafe.app */;
@@ -209,7 +212,7 @@
 			mainGroup = DA3A18B32DF76FF200C5590F;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				DA3A195D2DF77AB100C5590F /* XCLocalSwiftPackageReference "../KeychainManager" */,
+				DA1990B72EAD7F1700514450 /* XCRemoteSwiftPackageReference "KeychainManager" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DA3A18BD2DF76FF200C5590F /* Products */;
@@ -618,14 +621,23 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		DA3A195D2DF77AB100C5590F /* XCLocalSwiftPackageReference "../KeychainManager" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../KeychainManager;
+/* Begin XCRemoteSwiftPackageReference section */
+		DA1990B72EAD7F1700514450 /* XCRemoteSwiftPackageReference "KeychainManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicop2000/KeychainManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DA1990B82EAD7F1700514450 /* KeychainManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA1990B72EAD7F1700514450 /* XCRemoteSwiftPackageReference "KeychainManager" */;
+			productName = KeychainManager;
+		};
 		DA3A195E2DF77AB100C5590F /* KeychainManager */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = KeychainManager;
