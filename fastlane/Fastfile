@@ -61,7 +61,7 @@ platform :ios do
   lane :build_release do |options|
     app_identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
   
-    profile_name = "match AdHoc de.petersen.nico.cardsafe" # replace with the name of the profile to use for the build
+    profile_name = "match AppStore de.petersen.nico.cardsafe" # replace with the name of the profile to use for the build
     output_name = "CardSafe-iOS" # specify the name of the .ipa file to generate
     export_method = "appstore" # specify the export method
   
