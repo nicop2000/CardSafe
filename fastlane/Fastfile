@@ -72,12 +72,14 @@ platform :ios do
      scheme: "CardSafe", # replace with name of your project’s scheme
      output_name: output_name,
      configuration: "Release",
+     clean: true,
      export_options: {
        method: export_method,
        provisioningProfiles: {
          app_identifier => profile_name # here you can add any additional bundle identifiers and their associated provisioning profiles if you’re also building an app extension or other bundle identifier
        }
-     }
+     },
+     buildlog_path: "./build/logs"
    )
   end
   
