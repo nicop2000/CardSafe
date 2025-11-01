@@ -6,8 +6,7 @@ struct Additionals: Codable, Hashable {
 
     init(
         pin: String,
-        freeText: String
-    ) {
+        freeText: String) {
         self.pin = pin
         self.freeText = freeText
     }

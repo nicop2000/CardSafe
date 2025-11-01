@@ -41,21 +41,20 @@ struct Card: Codable, Identifiable, Hashable, Comparable {
         cardBranding: CardBranding,
         customBranding: String? = nil,
         conditions: Conditions,
-        additionals: Additionals
-    ) {
-        self.id = id
-        self.name = name
-        self.cardHolderName = cardHolderName
-        self.bank = bank
-        self.paymentInfo = paymentInfo
-        self.cardType = cardType
-        self.cardBranding = cardBranding
-        self.customBranding = customBranding
-        self.conditions = conditions
-        self.additionals = additionals
-    }
+        additionals: Additionals) {
+            self.id = id
+            self.name = name
+            self.cardHolderName = cardHolderName
+            self.bank = bank
+            self.paymentInfo = paymentInfo
+            self.cardType = cardType
+            self.cardBranding = cardBranding
+            self.customBranding = customBranding
+            self.conditions = conditions
+            self.additionals = additionals
+        }
 
-    init() {
+    init(synchronize: Bool) {
         self.id = UUID().uuidString
         self.name = ""
         self.cardHolderName = ""

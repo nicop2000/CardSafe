@@ -16,6 +16,7 @@ struct CardEditView: View {
     let keychainAccessor = KeychainAccessor()
     @State private var isNew = false
     @State private var isEditing = false
+    @EnvironmentObject private var settingsAccessor: SettingsAccessor
 
     init(card: Card, isNew: Bool = false) {
         _cardHolderName = State(initialValue: card.cardHolderName)
@@ -83,6 +84,10 @@ struct CardEditView: View {
                     if newValue != .other {
                         cardBrandingOther = ""
                     }
+                }
+            } footer: {
+                if settingsAccessor.globalSyncIndicator == false {
+                    Text("Die Synchronisierung auf andere iCloud-Geräte ist global in den App-Einstellungen ausgeschaltet")
                 }
             }
             PaymentInfoView(
@@ -185,7 +190,7 @@ struct CardEditView: View {
             conditions: conditions,
             additionals: .init(pin: pin, freeText: freetext)
         )
-        keychainAccessor.save(card: updatedCard)
+        keychainAccessor.save(card: updatedCard, sync: settingsAccessor.globalSyncIndicator)
         self.currentCard = updatedCard
     }
 }

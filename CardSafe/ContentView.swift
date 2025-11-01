@@ -6,6 +6,7 @@ struct ContentView: View {
     private let tip = AddTip()
     @State var cards: [Card] = []
     @EnvironmentObject var navigationModel: NavigationModel
+    @EnvironmentObject var settingsAccessor: SettingsAccessor
     @State var toDelete: Card?
     @Binding var isLocked: Bool
     init(isLocked: Binding<Bool>) {
@@ -46,16 +47,27 @@ struct ContentView: View {
                 Text("Löschen")
             }
         }
+        .refreshable {
+            cards = accessor.getAllCards()
+        }
         .background(.accent)
         .onAppear {
             cards = accessor.getAllCards()
+        }
+        .task {
+            if settingsAccessor.updatedAllCardsSync == false {
+                accessor.setSyncSyncForAll(sync: settingsAccessor.globalSyncIndicator)
+            }
+        }
+        .onChange(of: settingsAccessor.globalSyncIndicator) { _, shouldSync in
+            accessor.setSyncSyncForAll(sync: shouldSync)
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 VStack {
                     Button {
                         tip.invalidate(reason: .actionPerformed)
-                        let card = Card()
+                        let card = Card(synchronize: settingsAccessor.globalSyncIndicator)
                         navigationModel.path.append(Route.card(card, true))
                     } label: {
                         Image(systemName: "plus")
@@ -70,6 +82,14 @@ struct ContentView: View {
                     }
                 } label: {
                     Image(systemName: "lock.fill")
+                }
+            }
+            if #available(iOS 26.0, *) {
+                ToolbarSpacer(.flexible)
+            }
+            ToolbarItem(placement: .topBarLeading) {
+                NavigationLink(destination: SettingsView()) {
+                    Image(systemName: "gearshape.fill")
                 }
             }
         }

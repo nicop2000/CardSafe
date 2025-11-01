@@ -77,6 +77,11 @@ public struct CryptoService {
         return str
     }
 
+    public func hashPassword(_ password: String) -> String {
+        let hash = SHA512.hash(data: Data(password.utf8))
+        return hash.compactMap { String(format: "%02x", $0) }.joined()
+    }
+
     // MARK: - Errors
     public enum CryptoError: Error {
         case invalidKey

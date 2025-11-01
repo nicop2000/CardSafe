@@ -13,7 +13,7 @@ struct LockedModifier: ViewModifier {
     @State var timerToLock: Timer?
 
     init(isLocked: Binding<Bool>) {
-        self._passwordSet = State(initialValue: keychainAccess.getLockPassword() != nil)
+        self._passwordSet = State(initialValue: keychainAccess.isLockPasswordSet())
         self._isLocked = isLocked
     }
 
@@ -31,8 +31,7 @@ struct LockedModifier: ViewModifier {
                             .padding(.horizontal)
 
                         Button("Unlock") {
-                            let saved = keychainAccess.getLockPassword()
-                            if password == saved {
+                            if keychainAccess.checkIfLockPasswordCorrect(password) {
                                 unlock()
                             } else {
                                 showWrongPasswordAlert = true

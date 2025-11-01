@@ -107,6 +107,9 @@
         }
       }
     },
+    "Die Synchronisierung auf andere iCloud-Geräte ist global in den App-Einstellungen ausgeschaltet" : {
+
+    },
     "Enter password" : {
       "localizations" : {
         "en" : {
@@ -391,6 +394,12 @@
       }
     },
     "Sind Sie sicher, dass Sie diese Karte löschen möchten?" : {
+
+    },
+    "Synchronisation" : {
+
+    },
+    "Synchronisierung für die ganze App" : {
 
     },
     "This password will be used unlock the app" : {
